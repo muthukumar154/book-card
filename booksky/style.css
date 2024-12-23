@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+}
+.navbar{
+    background-color: orangered;
+    padding: 10px;
+}
+.book-box{
+    padding: 10px;
+}
+.book-detail{
+    padding: 15px;
+    width: 25%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+.book-detail h2{
+    color: orangered;
+}
+.book-detail button{
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    width: 70px;
+    margin-left:125px;
+    padding: 5px;
+}
+.add-btn{
+    position:absolute;
+    top: 84%;
+    left: 91%;
+    
+}
+.add-btn button{
+    background-color: orangered;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: none;
+    border-radius: 50%;
+    font-size: 50px;
+    cursor: pointer;
+}
+.popup-overlay{
+    background-color: black;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    display: none;
+}
+.popup{
+    background-color: orangered;
+    width: 40%;
+    padding:20px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    z-index: 2;
+    border-radius: 10px;
+    display: none;
+}
+.popup h2{
+    text-align: center;
+}
+.popup input{
+    background-color: transparent;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+.popup textarea{
+    background-color: transparent;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+.popup input::placeholder{
+    color: black;
+}
+.popup textarea::placeholder{
+    color: black;
+}
+.popup button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
